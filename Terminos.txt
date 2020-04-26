@@ -1,0 +1,43 @@
+------------------------------------------------
+Clase 1:
+Web Scraping: Proceso de extraccion de datos almacenados en la Web
+OBjetivo: recopilar informaci�n almacenada en un servidor web
+
+Web Crawling: Proceso de mapeo e indexacion de paginas web para conocer su contenido
+Objetivo: Conocer la estructura de la web.
+
+------------------------------------------------
+------------------------------------------------
+Clase 2:
+------------------------------------------------
+Verificar si acpeto terminos y condiciones...
+Es legal el uso que le voy a dar a los datos...
+- robot.txt deberia encontrarse en toda pagina especificando que contenido puede scrapearse o crwalearse.
+------------------------------------------------
+------------------------------------------------
+Clase 3:
+------------------------------------------------
+- Instalaci�n Anaconda
+------------------------------------------------
+------------------------------------------------
+Clase 4:
+------------------------------------------------
+- Descargando una página web
+    * requests para hacer petivciones a paginas web
+    * command text para obtener contendio html de la pagina
+    * command request.headers para saber si la pagina sabe de dond ele estoy pegando a esa web
+    * request.method para saber la pagina como reconoce el tipo de peticion que hago (GET, POST, etc)
+    * 
+------------------------------------------------
+------------------------------------------------
+Clase 5:
+- Parseando HTML con BeautifulSoup
+    * from bs4 from beatifulSoup
+    * s.find('ul', attrs='class':'hot-sections') esto es para encontrar contendio de una etiqueta especifica
+    * s.fin_all : tpdas las etiquetas
+    * s.get_text = para obtener texto entre etiquetas
+    * s.a = directamente a la etiqueta (en ese caso un <a>)
+------------------------------------------------
+
+------------------------------------------------
+------------------------------------------------
